@@ -1,0 +1,34 @@
+{
+  "name": "nubostore",
+  "version": "0.0.1-alpha",
+  "description": "Nubostore JavaScript Client",
+  "main": "dist/index.js",
+  "types": "dist",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon src/index.ts",
+    "build": "tsc -p .",
+    "publish": "npm publish --access public",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.9",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  },
+  "author": "Marcel Thomas",
+  "keywords": [
+    "nubostore",
+    "client"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Nubostore/nubostore-client-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nubostore/nubostore-client-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nubostore/nubostore-client-js/issues"
+  }
+}
