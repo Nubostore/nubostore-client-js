@@ -61,7 +61,7 @@ class ListItemController {
     spaceId: string;
     listId: string;
     itemId: string;
-    data: string;
+    data: object;
     regionId?: string;
     localeId?: string;
     apiKey?: string;

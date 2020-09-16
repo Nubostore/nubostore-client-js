@@ -1,6 +1,6 @@
 {
   "name": "@nubostore/content",
-  "version": "0.0.3-alpha",
+  "version": "0.0.4-alpha",
   "description": "Nubostore JavaScript Client",
   "main": "dist/index.js",
   "types": "dist",

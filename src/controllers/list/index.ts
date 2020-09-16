@@ -13,10 +13,6 @@ class ListController {
     this.item = new ListItemController({ client });
   }
 
-  public hello() {
-    console.log('hello');
-  }
-
   async create({
     spaceId,
     listId,
@@ -162,7 +158,7 @@ class ListController {
   }: {
     spaceId: string;
     listId: string;
-    query: string;
+    query: any;
     apiKey?: string;
     orderBy?: string;
     orderByDirection?: string;
